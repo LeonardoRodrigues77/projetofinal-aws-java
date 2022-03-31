@@ -1,0 +1,14 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo Entrando no build phase...
+      - mvn clean package
+  post_build:
+    commands:
+      - echo Build Finalizado com sucesso
+artifacts:
+  files:
+    - target/crudconta.jar
+  discard-paths: yes
