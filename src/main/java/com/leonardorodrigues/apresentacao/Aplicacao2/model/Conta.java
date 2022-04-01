@@ -123,7 +123,6 @@ public class Conta implements Serializable{
 }
 
 // CONTINUAR 04:34:00
-
 // Obs.: Criamos a "Model", a classe "Conta" é um modelo
 // Obs.: Package "Repository" é pra fazer comunicação com o H2 ou algum SGBD
 // Obs.: Package "service" é para criar as regras de negócio
